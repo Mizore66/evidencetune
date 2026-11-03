@@ -1,0 +1,7 @@
+.venv*/
+__pycache__/
+data_*/
+results/hf-*/
+jobpack*/
+ckpt/
+logs/
