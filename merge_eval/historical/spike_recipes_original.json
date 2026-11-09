@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "candidate_order": [
+    "attention_v8",
+    "late_v8"
+  ],
+  "candidates": {
+    "attention_v8": {
+      "name": "attention_v8",
+      "rationale": "Dev-only hypothesis: emphasize v8's two-turn behavior in attention while retaining the uniform winner's MLP weights.",
+      "default_alpha": 0.75,
+      "rules": [
+        {
+          "module": "self_attn",
+          "alpha": 0.5
+        }
+      ]
+    },
+    "late_v8": {
+      "name": "late_v8",
+      "rationale": "Dev-only hypothesis: emphasize v8's two-turn behavior in the final third of layers while retaining the uniform winner elsewhere.",
+      "default_alpha": 0.75,
+      "rules": [
+        {
+          "layers": [24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35],
+          "alpha": 0.5
+        }
+      ]
+    }
+  }
+}

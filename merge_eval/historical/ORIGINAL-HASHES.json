@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "historical_preregistration_sha256": "49b39a7261ca1d6e2641d4266c2d17663e65bbfd97f526b206a9ec73f6e50dee",
+  "files": {
+    "layerwise_dev_original.py": "6f9a3d8f7c481a550f633748caf053fb2386b008fefb5cc164bd5bcd558fb9b4",
+    "layerwise_merge_original.py": "c75a8cedee4dd782d4cd4f7aa9b17ee1040326c3344501840e1882373783f7db",
+    "local_eval_original.py": "8ee0ae766af877ba575be6b5e6cfd7d6905ca637fa57712d224f3d76621cfe1c",
+    "merge_lora_original.py": "6005b03aa24444a4ec97b26f0f1f8429933cb4c9cc17de059b6d71e494c80613",
+    "spike_recipes_original.json": "4ebb3a126e9b28ea5a575c784bd93426ca5774ae8af02b04ab6c7c263a009a8d"
+  },
+  "limitations": [
+    "The historical preregistration did not hash-lock the runner.",
+    "The historical candidate manifest did not hash-lock adapter_config.json.",
+    "No full cached base-model commit revision or tokenizer file hashes were recorded.",
+    "Generation timing and token usage were aggregated by stage/batch, not reconstructable per call."
+  ]
+}
