@@ -1,5 +1,7 @@
 # EvidenceTune: teaching Aya when a correction deserves to change its mind
 
+> **Current submission status (10 Nov 2026):** the selected model is the local merged `alpha_0.75` adapter (75% v7 + 25% v8), not the historical v6 adapter described below. Read `WRITEUP.md` and `SUBMISSION-DRAFT.md` for current evidence and claim boundaries, `RESUME.md` for project state, `release/` for verified raw-free package tooling and raw-record replay, `HF-ARTICLE.md`/`ABSTRACT.md` for the current article, `PUBLICATION-CHECKLIST.md` for required public gates, and `MERGED-DEMO.md` for the recorded-prediction handoff. Original project code is MIT licensed; the adapter is CC BY-NC 4.0, with dataset/Lexsi notices separate. Generated bundles are under ignored `.release/` and `.public_staging/`; no public action has occurred. The remainder of this README is preserved historical v6-era material.
+
 *Lexsi AI Safety & Alignment Hackathon 2026 — Track 2 · CuratorKIT → SafeTune → AuditKIT · Tiny Aya Global*
 
 ## TL;DR
